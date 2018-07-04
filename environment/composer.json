@@ -1,0 +1,24 @@
+{
+    "name": "fastnorth/race-roster-interview",
+    "description": "Race Roster is an event registration system. This is a small interview challenge",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Mike Almond",
+            "email": "almond@fastnorth.com"
+        },
+        {
+            "name": "Fahim Pirmohamed",
+            "email": "mike@tactmarketing.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/Interview.php",
+            "src/InterviewException.php"
+            ],
+        "psr-4": {
+            "RaceRoster\\": "src"
+        }
+    }
+}
